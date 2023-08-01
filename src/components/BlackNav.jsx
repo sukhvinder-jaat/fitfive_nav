@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import logo from '../assets/img/svg/nav_logo.svg'
 export const BlackNav = ({children,bg_clr,black,none}) => {
   return (
-          <div className={` my-5 ${bg_clr}`}>
+          <div className={` ${bg_clr}`}>
               <Container>
                   <div className='d-flex align-items-center justify-content-between py-4'>
                       <span><img src={logo} alt="logo" className='w-100' /></span>

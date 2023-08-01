@@ -27,10 +27,20 @@
 .bg_red {
   background-color: #FF0000;
 }
+
 .clr_green {
   color: #9ACD32;
 }
 
 .bg_green {
   background-color: #9ACD32;
+}
+
+.bg_box {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.bottom_box {
+  background: #242424;
 }
