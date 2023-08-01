@@ -8,10 +8,10 @@ export const BlackNav = ({children,bg_clr,black,none}) => {
                   <div className='d-flex align-items-center justify-content-between py-4'>
                       <span><img src={logo} alt="logo" className='w-100' /></span>
                       <ul className='mb-0 ps-0 d-flex align-items-center gap-5'>
-                          <li className='fs_16 fw_500 text-white ff_poppins'>Home</li>
-                          <li className='fs_16 fw_500 text-white ff_poppins'>About</li>
-                          <li className='fs_16 fw_500 text-white ff_poppins'>Work</li>
-                      <li className={`fs_16 fw_500 text-white ff_poppins ${none}`}>All pages</li>
+                          <li className='fs_16 fw_500 text-white ff_poppin pointer'>Home</li>
+                          <li className='fs_16 fw_500 text-white ff_poppins pointer'>About</li>
+                          <li className='fs_16 fw_500 text-white ff_poppins pointer'>Work</li>
+                      <li className={`fs_16 fw_500 text-white ff_poppins pointer ${none}`}>All pages</li>
                       {/* <li className='fs_16 fw_500 text-white ff_poppins'>{children}</li> */}
                       {children}
                       </ul>
