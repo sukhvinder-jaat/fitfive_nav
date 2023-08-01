@@ -14,8 +14,8 @@ export const FitFive = ({fit_img,fit_para,children,hover_border}) => {
               <Row>
                   {fitfive.map((card) => {
                       return (
-                          <Col md={6} xs={12} key={card.id}>
-                              <div className={`bg_box mb-3 d-flex flex-column ${hover_border}`}>
+                          <Col md={6} xs={12} key={card.id} className='mb-3'>
+                              <div className={`bg_box h-100 justify-content-between mb-3 d-flex flex-column ${hover_border}`}>
                                   <div className='pt-2 ps-2'>
                                       <img src={card.img} className='ms-1 pt-4 mt-1' width={80} height={70} />
                                       <p className=' text-white mt-3 pt-1 pb-2 ps-4 ms-1'>{card.heading}</p>
