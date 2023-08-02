@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 // import { fitfive } from '../components/Help'
-import { fitfive } from '../components/GreenHelp'
-export const FitFive = ({fit_img,fit_para,children,hover_border}) => {
+// import { fitfive } from '../components/GreenHelp'
+export const FitFive = ({fit_img,fit_para,children,hover_border,product}) => {
   return (
       <div className='bg-black py-5'>
           <Container>
@@ -12,7 +12,7 @@ export const FitFive = ({fit_img,fit_para,children,hover_border}) => {
                   {children}
               </div>
               <Row>
-                  {fitfive.map((card) => {
+                  {product.map((card) => {
                       return (
                           <Col md={6} xs={12} key={card.id} className='mb-3'>
                               <div className={`bg_box h-100 justify-content-between mb-3 d-flex flex-column ${hover_border}`}>
