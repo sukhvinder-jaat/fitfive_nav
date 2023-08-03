@@ -1,12 +1,12 @@
-import balance from '../assets/img/svg/box_1_r.svg'
-import box_2 from '../assets/img/svg/box_2_r.svg'
-import box_3 from '../assets/img/svg/box_3_r.svg'
-import box_4 from '../assets/img/svg/box_4_r.svg'
-import box_5 from '../assets/img/svg/box_5_r.svg'
-import balance2 from '../assets/img/svg/g_1.svg'
-import g1 from '../assets/img/svg/g_2.svg'
-import g2 from '../assets/img/svg/g_3.svg'
-import g3 from '../assets/img/svg/g_4.svg'  
+import balance from '../../assets/img/svg/box_1_r.svg'
+import box_2 from '../../assets/img/svg/box_2_r.svg'
+import box_3 from '../../assets/img/svg/box_3_r.svg'
+import box_4 from '../../assets/img/svg/box_4_r.svg'
+import box_5 from '../../assets/img/svg/box_5_r.svg'
+import balance2 from '../../assets/img/svg/g_1.svg'
+import g1 from '../../assets/img/svg/g_2.svg'
+import g2 from '../../assets/img/svg/g_3.svg'
+import g3 from '../../assets/img/svg/g_4.svg'  
 export const data = [
     {
         id: 1,

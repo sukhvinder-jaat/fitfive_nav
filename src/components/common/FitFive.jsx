@@ -1,15 +1,14 @@
-import React from 'react'
+import React, { Children } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-// import { fitfive } from '../components/Help'
-// import { fitfive } from '../components/GreenHelp'
-export const FitFive = ({fit_img,fit_para,children,hover_border,product}) => {
-  return (
+export const FitFive = ({ fit_img, fit_para, children, hover_border, product }) => {
+    const childarray = Children.toArray(children);
+    return (
       <div className='bg-black py-5'>
           <Container>
               <div className=' d-flex flex-column align-items-center pb-5 '>
-                  <span><img src={fit_img} alt="" className='w-100' /></span>
+                  <span><img src={fit_img} className='w-100' /></span>
                   <p className='text-white text-center fs_16 ff_poppins fw-light mx_1000 pt-3'>{fit_para}</p>
-                  {children}
+                  {childarray [0]}
               </div>
               <Row>
                   {product.map((card) => {
@@ -22,7 +21,7 @@ export const FitFive = ({fit_img,fit_para,children,hover_border,product}) => {
                                   </div>
                                   <div className='bottom_box p-4 rounded-3'>
                                       <p className='mb-0 text-white'>{card.para}</p>
-                                      </div>
+                                </div>
                               </div>
                           </Col>
                       )
